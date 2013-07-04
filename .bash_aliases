@@ -22,6 +22,9 @@ alias less="less -r"
 alias grep="grep --color"
 alias tmux="tmux -2"
 alias matlabcli="matlab -nodesktop -nosplash -nojvm"
+alias ctags_cpp="ctags -R --c++-kinds=+p --fields=+iaS --extra=+q"
+alias ctags_java="ctags --recurse --langmap=Java:.java --languages=Java --verbose"
+alias cscope_c="find ./ -name "*.c" -or -name "*.h" -or -name "*.cpp" -or -name "*.S" | cscope -Rbk"
 
 OS=`uname -s`
 case $OS in

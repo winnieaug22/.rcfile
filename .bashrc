@@ -87,6 +87,7 @@ case $OS in
         export LC_COLLATE=C
         export LC_TIME=C
         export MITSCHEME_LIBRARY_PATH="/Applications/MIT\:GNU\ Scheme.app/Contents/Resources"
+        export PATH=$HOME/opt/adt-bundle-mac-x86_64-20130522/ndk:$PATH
     ;;
 esac
 export EDITOR="vim"
@@ -94,6 +95,10 @@ set -o vi
 
 if [ -f ~/.rcfile/.git-completion.bash ]; then
     . ~/.rcfile/.git-completion.bash
+fi
+
+if [ -f ~/.rcfile/android ]; then
+    . ~/.rcfile/android
 fi
 ###############################################################################
 # Alias definitions.
