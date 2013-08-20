@@ -1,5 +1,6 @@
 alias ls='ls -F --color=auto'
 alias dir='dir --color=auto'
+alias dirdiff='diff --brief -r'
 alias vdir='vdir --color=auto'
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
@@ -35,3 +36,4 @@ case $OS in
         alias emacs=/Applications/Emacs.app/Contents/MacOS/Emacs
         ;;
 esac
+# vim:set ft=sh:
