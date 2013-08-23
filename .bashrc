@@ -97,8 +97,8 @@ if [ -f ~/.rcfile/.git-completion.bash ]; then
     . ~/.rcfile/.git-completion.bash
 fi
 
-if [ -f ~/.rcfile/android ]; then
-    . ~/.rcfile/android
+if [ -f ~/.rcfile/.android ]; then
+    . ~/.rcfile/.android
 fi
 ###############################################################################
 # Alias definitions.
