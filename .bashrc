@@ -79,6 +79,7 @@ case $OS in
         LC_COLLATE=C
         export LC_TIME=C
         export LANG LC_CTYPE LC_COLLATE
+        export PATH=$HOME/opt/ndk/:$PATH
         linux_logo
     ;;
     "Darwin")
@@ -86,8 +87,7 @@ case $OS in
         export LC_ALL=en_US.UTF-8
         export LC_COLLATE=C
         export LC_TIME=C
-        export MITSCHEME_LIBRARY_PATH="/Applications/MIT\:GNU\ Scheme.app/Contents/Resources"
-        export PATH=$HOME/opt/adt-bundle-mac-x86_64-20130522/ndk:$PATH
+        export PATH=$HOME/opt/ndk/:$PATH
     ;;
 esac
 export EDITOR="vim"
