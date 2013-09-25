@@ -117,6 +117,7 @@ EXEC 01;32
 # audio formats# {{{
 .flac 01;35
 .mp3  01;35
+.mp4  01;35
 .wma  01;35
 .mpc  01;35
 .ogg  01;35
