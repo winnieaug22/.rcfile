@@ -79,7 +79,6 @@ case $OS in
         LC_COLLATE=C
         export LC_TIME=C
         export LANG LC_CTYPE LC_COLLATE
-        export PATH=$HOME/opt/ndk/:$PATH
         linux_logo
     ;;
     "Darwin")
@@ -87,7 +86,6 @@ case $OS in
         export LC_ALL=en_US.UTF-8
         export LC_COLLATE=C
         export LC_TIME=C
-        export PATH=$HOME/opt/ndk/:$PATH
     ;;
 esac
 export EDITOR="vim"

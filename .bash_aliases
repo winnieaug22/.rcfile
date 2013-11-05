@@ -7,7 +7,7 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 alias duh="du -h"
 alias dfh="df -h"
-alias tree="tree -F -C"
+alias tree="tree -F -C -N"
 alias rm="rm -i"
 alias bdate="date +%Y_%m%d_%H%M"
 alias mana="man -a"
