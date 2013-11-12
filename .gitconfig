@@ -1,6 +1,6 @@
 [user]
-	name = Wen-Chi Guo
-	email = campbellmath@gmail.com
+	name = Winnie Chen
+	email = winnie.aug22@gmail.com
 [alias]
     ll   = log --pretty=oneline --abbrev-commit
     lg   = log --pretty=oneline --abbrev-commit --graph --decorate --date=relative
@@ -18,7 +18,7 @@
 [sendemail]
 	smtpencryption = tls
 	smtpserver = smtp.gmail.com
-	smtpuser = campbellmath
+	smtpuser = winnie.aug22
 	smptserverport = 587
 [core]
 	editor = vim
