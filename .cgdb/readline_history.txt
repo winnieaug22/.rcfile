@@ -1385,3 +1385,32 @@ r
 p data
 q
 y
+q
+r
+quit
+y
+r
+q
+quit
+y
+r
+exit
+quit
+y
+b main
+r
+s
+s
+n
+n
+n
+r
+y
+n
+n
+r
+y
+n
+n
+quit
+y

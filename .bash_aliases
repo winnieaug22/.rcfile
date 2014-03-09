@@ -38,3 +38,5 @@ case $OS in
         ;;
 esac
 # vim:set ft=sh:
+#winnie
+alias indent_winnie="indent -linux --tab-size4 --no-tabs -ppi 3 -bl -bli0 -prs -bls -blf -lp -c1"
