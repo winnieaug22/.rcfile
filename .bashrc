@@ -79,7 +79,7 @@ case $OS in
         LC_COLLATE=C
         export LC_TIME=C
         export LANG LC_CTYPE LC_COLLATE
-        linux_logo
+        # linux_logo
     ;;
     "Darwin")
         echo "Mac OS X"
