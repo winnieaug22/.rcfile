@@ -170,3 +170,6 @@ export LIBGL_ALWAYS_INDIRECT=1
 # winnie setting
 ###############################################################################
 export PATH=$HOME/.rcfile/.bin/git-diffall:$PATH
+#:scscope find c
+#:scscope find t
+#:Grep
