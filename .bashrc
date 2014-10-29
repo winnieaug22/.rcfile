@@ -150,7 +150,8 @@ right=$white"]"$end
 command_number=$left$cyan"\#"$end$right
 time_=$left$red"\t"$end$right
 dir=$white"[\w]"$end
-orz=$cyan"Orz"$end
+# orz=$cyan"Orz"$end
+orz=$cyan""$end
 gitbranch="\$(git branch > /dev/null 2>&1 && git branch | grep \"*\" | awk '{ printf \"[⚡ $green%s$end]\", \$2 }')"
 prompt="$green\$ "$end
 PS1="$user$at$localhost$time_$command_number$gitbranch$dir$orz\n$prompt"
@@ -165,3 +166,7 @@ export LESS_TERMCAP_ue=$'\E[0m'
 export LESS_TERMCAP_us=$'\E[01;32m'
 ###############################################################################
 export LIBGL_ALWAYS_INDIRECT=1
+###############################################################################
+# winnie setting
+###############################################################################
+export PATH=$HOME/.rcfile/.bin/git-diffall:$PATH
