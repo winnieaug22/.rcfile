@@ -8,6 +8,7 @@
     lgtt = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
     la   = log --graph --pretty=format:'%Cred%h%Creset -%C(bold yellow)%d%Creset %s %Cgreen(%cr) %C(bold cyan)%an%Creset %C(blue)<%ce>%Creset' --abbrev-commit --all
     diffall = git-diffall
+    difftooln = difftool --name-only
 [color]
 	diff = auto
 	status = auto
@@ -24,13 +25,13 @@
 [core]
 	editor = vim
 [merge]
-	; tool = vimdiff
-	tool = meld
+	tool = vimdiff
+	; tool = meld
 [mergetool]
 	trustExitCode = false
 [diff]
-	; tool = vimdiff
-	tool = meld
+	tool = vimdiff
+	; tool = meld
 [gui]
     encoding = utf-8
 [i18n]
